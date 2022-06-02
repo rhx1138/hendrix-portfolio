@@ -2,3 +2,31 @@
     margin: 0 auto;
 }
 
+body {
+    background-color: grey;
+}
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+
+
+/* when in mobile view */
+
+input, ul.submenu {
+    display: none;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  /*position the label*/
+  label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  
+  /*show the submenu when input is checked*/
+  input:checked~ul.submenu {
+    display: block;
+  }
