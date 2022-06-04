@@ -8,10 +8,15 @@ body {
 
 .flex-container {
     display: flex;
+    background-color: rgb(72, 74, 207);
 }
+
+/* navbar section */
 
 .logo {
     display: flex;
+    background-color: lightblue;
+    padding: 0 20px 0 48px;
     justify-content: flex-start;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 45px;
@@ -39,7 +44,7 @@ ul {
 }
 
 a {
-    color: rgb(32, 32, 119);
+    color: black;
 }
 
 a:link {
@@ -52,6 +57,43 @@ a:visited {
 
 li {
     padding-right: 40px;
+}
+
+/* hero section */
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("/assets/images/hero-bg.jpg");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    color: salmon;
+    text-align: center;
+    top: 50%;
+    left: 75%;
+    position: absolute;
+}
+
+/* about me section */
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media only screen and (max-width: 895px) {
+    .logo {
+        font-size: 35px;
+    }
+
+    .menu {
+        font-size: 18px;
+    }
 }
 
 
@@ -99,6 +141,11 @@ li {
     /*show the submenu when input is checked*/
     input:checked~ul.submenu {
         display: block;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
     }
 
 }
