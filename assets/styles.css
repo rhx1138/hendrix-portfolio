@@ -1,5 +1,6 @@
 * {
     margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -18,7 +19,6 @@ body {
     background-color: lightblue;
     padding: 0 20px 0 48px;
     justify-content: flex-start;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 45px;
 }
 
@@ -64,6 +64,7 @@ li {
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("/assets/images/hero-bg.jpg");
     height: 200px;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,6 +84,22 @@ li {
 .about-container {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+.about-title {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    width: 600px;
+    border-left: 5px solid black;
+}
+
+.about-text > p {
+    padding-left: 10px;
 }
 
 
@@ -103,6 +120,7 @@ li {
 
     .flex-container {
         display: block;
+        width: 100%;
     }
 
     .logo {
@@ -143,9 +161,14 @@ li {
         display: block;
     }
 
+
     .about-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .about-text {
+        width: 75%;
     }
 
 }
