@@ -11,7 +11,7 @@ body {
 
 .flex-container {
     display: flex;
-    background-color: rgb(72, 74, 207);
+    background-color: rgb(99, 102, 253);
 }
 
 /* navbar section */
@@ -46,7 +46,7 @@ ul {
 }
 
 a {
-    color: black;
+    color: whitesmoke;
 }
 
 a:link {
@@ -78,7 +78,7 @@ li {
 }
 
 .hero-text {
-    color: salmon;
+    color: whitesmoke;
     text-align: center;
     top: 50%;
     left: 75%;
@@ -200,6 +200,11 @@ li {
     .menu {
         font-size: 18px;
     }
+
+    .large {
+        font-size: 35px;
+    }
+    
 }
 
 
