@@ -14,7 +14,7 @@ body {
     background-color: rgb(99, 102, 253);
 }
 
-/* navbar section */
+/* navbar section */ 
 
 .logo {
     display: flex;
@@ -50,7 +50,7 @@ a {
 }
 
 a:link {
-    text-decoration: none;
+    text-decoration:none;
 }
 
 a:visited {
@@ -68,7 +68,7 @@ li {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("/assets/images/hero-bg.jpg");
+    background-image: linear-gradient(rgba(192, 192, 192, 0.9), rgba(211, 211, 211, 0.5)), url("/assets/images/hero-bg.jpg");
     height: 200px;
     width: 100%;
     background-position: center;
@@ -81,8 +81,12 @@ li {
     color: whitesmoke;
     text-align: center;
     top: 50%;
-    left: 75%;
+    left: 60%;
     position: absolute;
+}
+
+.hero-text > .logo {
+    font-size: 45px;
 }
 
 /* about me section */
@@ -106,10 +110,10 @@ li {
     flex-basis: 80%;
     max-width: 1000px;
     padding-right: 189px;
-    border-left: 3px solid black;
+    border-left: 3.5px solid black;
 }
 
-.about-text > p {
+.about-text>p {
     font-size: 18px;
     padding-left: 20px;
 }
@@ -134,11 +138,11 @@ li {
 .work-images {
     flex-basis: 80%;
     max-width: 1000px;
-    border-left: 3px solid black;
-    
+    border-left: 3.5px solid black;
+
 }
 
-.work-images > p {
+.work-images>p {
     font-size: 18px;
     padding-left: 20px;
 }
@@ -152,8 +156,19 @@ li {
 
 .item {
     margin: 5px;
+    width: 38.5%;
+    /* border: 3px solid black; */
 }
 
+.work-images-container-top {
+    padding-left: 20px;
+}
+
+.item-top {
+    margin: 5px;
+    width: 78%;
+    /* border: 3px solid black; */
+}
 
 .contact-container {
     display: flex;
@@ -174,10 +189,10 @@ li {
     max-width: 1000px;
     padding-top: 20px;
     padding-right: 189px;
-    border-left: 3px solid black;
+    border-left: 3.5px solid black;
 }
 
-.contact-text > p {
+.contact-text>p {
     font-size: 18px;
     padding-left: 20px;
 }
@@ -191,10 +206,22 @@ li {
     font-size: 25px;
 }
 
+/* need new media query */
+
+@media only screen and (max-width: 1262px) {
+    .hero-text > .logo {
+        font-size: 28px;
+    }
+}
+
 
 @media only screen and (max-width: 895px) {
     .logo {
         font-size: 35px;
+    }
+
+    .hero-text > .logo {
+        font-size: 20px;
     }
 
     .menu {
@@ -204,7 +231,7 @@ li {
     .large {
         font-size: 35px;
     }
-    
+
 }
 
 
@@ -260,7 +287,8 @@ li {
         display: flex;
         flex-direction: column;
     }
-/* this is why it did not line up with 2nd sec */
+
+    /* this is why it did not line up with 2nd sec */
     .about-text {
         width: 75%;
         padding-right: 0;
@@ -284,6 +312,14 @@ li {
         padding-left: 0;
     }
 
+    .item {
+        width: 100%;
+    }
+
+    .item-top {
+        width: 100%;
+    }
+
     .contact-container {
         display: flex;
         flex-direction: column;
@@ -294,6 +330,7 @@ li {
         flex-direction: column;
         padding-left: 64px;
     }
+
     .contact-text {
         width: 75%;
         padding-right: 0;
