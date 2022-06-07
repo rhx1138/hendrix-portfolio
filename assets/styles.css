@@ -157,6 +157,7 @@ li {
 .item {
     margin: 5px;
     width: 38.5%;
+    opacity: 0.8;
     /* border: 3px solid black; */
 }
 
@@ -164,8 +165,6 @@ li {
     position: relative;
     padding-left: 20px;
 }
-
-
 
 .item-top {
     margin: 5px;
@@ -180,8 +179,6 @@ li {
 img:hover {
     opacity: 1;
 }
-
-
 
 .contact-container {
     display: flex;
