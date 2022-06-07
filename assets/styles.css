@@ -49,6 +49,11 @@ a {
     color: whitesmoke;
 }
 
+.link > a {
+    color: black;
+    cursor: pointer;
+}
+
 a:link {
     text-decoration:none;
 }
@@ -60,6 +65,10 @@ a:visited {
 li {
     padding-right: 40px;
 }
+
+a:hover {
+    background-color: rgb(126, 216, 247);
+  }
 
 /* hero section */
 
@@ -240,6 +249,10 @@ img:hover {
 
     .large {
         font-size: 35px;
+    }
+
+    .contact-container {
+        margin-bottom: 50px;
     }
 
 }
