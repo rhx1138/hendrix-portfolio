@@ -161,14 +161,27 @@ li {
 }
 
 .work-images-container-top {
+    position: relative;
     padding-left: 20px;
 }
+
+
 
 .item-top {
     margin: 5px;
     width: 78%;
-    /* border: 3px solid black; */
+    opacity: 0.8;
 }
+
+/* .item:hover {
+    opacity: 0.1;
+} */
+
+img:hover {
+    opacity: 1;
+}
+
+
 
 .contact-container {
     display: flex;
