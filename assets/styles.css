@@ -166,6 +166,11 @@ a:hover {
     justify-content: flex-start;
     padding-left: 20px;
 }
+/* after adding a tag, img positioning was wrong, adding display content fixed; review further why */
+/* this also may have to do with display-box that others have recommended for flexbox in global settings */
+.work-images-container > a {
+    display: contents;
+}
 
 .item {
     margin: 5px;
@@ -173,6 +178,7 @@ a:hover {
     opacity: 0.8;
     /* border: 3px solid black; */
 }
+
 
 .work-images-container-top {
     position: relative;
