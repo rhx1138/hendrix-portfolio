@@ -10,6 +10,6 @@ Hendrix-portfolio is my own personal portfolio website utilizing pure HTML5 and 
 
 * Images have been optimized for faster loading pages
 
-[Portfolio Website](https://rhx1138.github.io/hendrix-portfolio/)
+[Portfolio Website](https://hendrix-portfolio.netlify.app/)
 
 ![Horiseon screenshot one](/assets/images/hendrix-site.jpg "Hendrix portfolio site") 
