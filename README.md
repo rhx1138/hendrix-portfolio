@@ -1,6 +1,6 @@
 # hendrix-portfolio #
 
-## Challenge 2 Description ##
+## Description ##
 
 Hendrix-portfolio is my own personal portfolio website utilizing pure HTML5 and CSS. 
 
